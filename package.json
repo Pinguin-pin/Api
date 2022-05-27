@@ -1,0 +1,23 @@
+{
+  "name": "api1",
+  "version": "1.0.0",
+  "description": "Single page to display Api data",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "browser-sync"
+  },
+  "author": "Anton Vdovenko",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.10",
+    "jqeury": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "popper": "^1.0.1"
+  }
+}
