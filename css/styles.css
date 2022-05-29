@@ -4,7 +4,7 @@ body {
     }
 
 
-.inside {
+.default {
     margin: 5px;
     border-radius: 8px;
     box-shadow: rgb(0 0 0 / 3%) 0px 16px 16px 0px;
@@ -20,17 +20,4 @@ body {
     height: 100%;
     object-fit: cover;
     padding: 0;
-}
-
-.special {
-    background-color: rgba(54, 139, 123, 0.06);
-    border-radius: 12px;
-    padding: 0;
-}
-
-
-.block_image {
-    padding: 0;
-    margin: 0;
-    border-radius: 8px 8px 0 0;
 }
