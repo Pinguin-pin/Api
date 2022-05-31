@@ -31,25 +31,17 @@ body {
     box-shadow: 0px 21px 24px -8px rgba(23, 24, 24, 0.04);
     border-radius: 8px;
     margin-top: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 13px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     background: #FFFFFF;
     height: 54px;
 }
 
 .icon-bar {
     border: 1.6px solid #929C99;
-    left: 20.83%;
-    right: 20.83%;
-    top: 50%;
-    bottom: 50%;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
     
 }
 
@@ -73,4 +65,18 @@ body {
     color: #171818;
     font-size: 16px;
     line-height: 22px;
+}
+
+.we {
+    width: 54px;
+}
+
+
+.form-control {
+    border: 0px;
+    padding: 0px;
+}
+
+.pp-0 {
+    padding-right: 0;
 }

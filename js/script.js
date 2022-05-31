@@ -2,7 +2,7 @@ document.addEventListener(
     "DOMContentLoaded",
     function (event) {
         var allHtml = ''
-        $ajaxUtils.sendGetRequest("https://api.kealabs.ru/api/api/search?token=vug76zZABZ2mUFOfWI0AtWJUc34abWWY&range=price:0-999999&q=1&sort=priceup&limit=100&page=1&available=true",
+        $ajaxUtils.sendGetRequest("/search.json",
             function(res) {
                 var products = res.results.products;
                 for (var i = 0; i < 100; i++) {
